@@ -1,0 +1,208 @@
+.button {
+    -fx-font-weight: bold;
+}
+
+
+#AnchorPane{
+   -fx-stroke-weight: 2000;
+
+}
+
+#googleMapView{
+    -fx-background-color: blue;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-stroke-weight: 20000;
+    -fx-padding: 5;
+    }
+
+
+#GiocatoreName{
+
+    -fx-background-color: white;
+    -fx-border-radius: 20;
+    -fx-border-color: blue;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+
+
+#dadoButton{
+    -fx-padding: 5;
+    -fx-border-color: blue;
+
+}
+
+#NumeroMezzo{
+    -fx-background-color: white;
+    -fx-weight: 1000;
+    -fx-background-radius: 50;
+    -fx-border-radius: 20;
+    -fx-border-color: blue;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+
+#ErroreDado{
+
+    -fx-background-color: white;
+}
+
+
+#Vagone{
+    -fx-border-radius: 20;
+    -fx-background-color: transparent;
+    -fx-background-image: url("http://oi63.tinypic.com/10fe6vk.jpg");
+}
+
+#Dado{
+    -fx-border-radius: 20;
+    -fx-background-color: transparent;
+}
+
+Label#CartaObiettivo,Label#CartaPercorsoArrivo{
+    -fx-background-color: white;
+    -fx-weight: 1000;
+        -fx-background-radius: 50;
+        -fx-border-radius: 20;
+        -fx-border-color: blue;
+        -fx-background-radius: 20;
+        -fx-padding: 5;
+}
+
+#CartaPercorsoPartenza{
+    -fx-background-color: rgba(45,255,13,1);
+    -fx-weight: 1000;
+        -fx-background-radius: 50;
+        -fx-border-radius: 20;
+        -fx-border-color: blue;
+        -fx-background-radius: 20;
+        -fx-padding: 5;
+}
+
+#TurnoButton{
+    -fx-padding: 5;
+    -fx-border-color: red;
+}
+
+#FinePartita {
+    -fx-background-color: black;
+    -fx-font-weight: 900;
+    -fx-alignment: center-left bottom-left;
+    -fx-label-padding: 100;
+    -fx-border-color: red;
+    -fx-padding: 5;
+
+}
+
+#SceltaGiocatori {
+    -fx-background-color: url('mondo.jpg');
+    -fx-alignment: center up-center;
+    -fx-label-padding: 100;
+    -fx-border-radius:8;
+    -fx-border-color: red;
+    -fx-padding: 5;
+
+}
+
+
+#ScrittaGiocatori{
+      -fx-background-color: #e0ffff;
+      -fx-weight: 50;
+      -fx-background-radius: 50;
+      -fx-border-radius: 20;
+      -fx-border-color: blue;
+      -fx-background-radius: 20;
+      -fx-padding: 5;
+}
+
+
+#SceltaMappa {
+    -fx-background-image: url('Immagini/mondo.jpg');
+    -fx-alignment: center up-center;
+    -fx-border-radius:8;
+    -fx-label-padding: 100;
+    -fx-border-color: black;
+    -fx-padding: 5;
+
+}
+
+
+
+Button#Due{
+
+      -fx-background-image: url('Immagini/2.jpeg');
+    -fx-weight: 1000;
+        -fx-background-radius: 50;
+        -fx-border-radius: 20;
+        -fx-border-color: red;
+        -fx-background-radius: 20;
+        -fx-padding: 5;
+}
+
+Button#Tre{
+      -fx-background-image: url('Immagini/3.jpeg');
+       -fx-weight: 1000;
+        -fx-background-radius: 50;
+        -fx-border-radius: 20;
+        -fx-border-color: red;
+        -fx-background-radius: 20;
+        -fx-padding: 5;
+}
+Button#Quattro{
+
+      -fx-background-image: url('Immagini/4.jpeg');
+    -fx-weight: 1000;
+        -fx-background-radius: 50;
+        -fx-border-radius: 20;
+        -fx-border-color: red;
+        -fx-background-radius: 20;
+        -fx-padding: 5;
+}
+
+Button#Cinque{
+      -fx-background-image: url('Immagini/5.jpeg');
+       -fx-weight: 1000;
+        -fx-background-radius: 50;
+        -fx-border-radius: 20;
+        -fx-border-color: red;
+        -fx-background-radius: 20;
+        -fx-padding: 5;
+}
+
+Button#Uno{
+      -fx-background-image: url('Immagini/1.jpg');
+       -fx-weight: 1000;
+        -fx-background-radius: 50;
+        -fx-border-radius: 20;
+        -fx-border-color: red;
+        -fx-background-radius: 20;
+        -fx-padding: 5;
+}
+
+#InizioPartita {
+    -fx-background-color: #00ffff;
+        -fx-weight: 50;
+            -fx-background-radius: 50;
+            -fx-border-radius: 20;
+            -fx-border-color: blue;
+            -fx-background-radius: 20;
+            -fx-padding: 5;
+
+}
+
+
+
+Button#Europa,Button#USA,Button#Africa,Button#Sud_America,Button#Asia{
+    -fx-background-color: white;
+    -fx-weight: 1000;
+    width:100px;
+    height:200px;
+        -fx-background-radius: 50;
+        -fx-border-radius: 20;
+        -fx-border-color: red;
+        -fx-background-radius: 20;
+        -fx-padding: 5;
+}
+
+

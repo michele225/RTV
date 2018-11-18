@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import com.lynden.gmapsfx.GoogleMapView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.*?>
+
+<?import javafx.scene.image.ImageView?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.univaq.rtv.FrontController.ControllerRoadToVictory" >
+
+<GoogleMapView fx:id="googleMapView" />
+
+    <Label fx:id="InizioPartita" layoutX="330.0" layoutY="100.0" mnemonicParsing="false" text="Inizia la tua Partita"/>
+
+    <Label fx:id="SceltaMappa" layoutX="30.0" layoutY="30.0" text="Scegli dove giocare:" minHeight="530" minWidth="750" visible="false"/>
+    <children>
+        <Button fx:id="Europa" layoutX="500.0" layoutY="170.0" text="Europa" onAction="#SetMappa" visible="false"></Button>
+        <Button fx:id="USA" layoutX="200.0" layoutY="200.0" text="USA" onAction="#SetMappa" visible="false"></Button>
+        <Button fx:id="Sud_America" layoutX="300.0" layoutY="350.0" text="Sud America" onAction="#SetMappa" visible="false"></Button>
+        <Button fx:id="Africa" layoutX="500.0" layoutY="250.0" text="Africa" onAction="#SetMappa" visible="false"></Button>
+        <Button fx:id="Asia" layoutX="700.0" layoutY="200.0" text="Asia" onAction="#SetMappa" visible="false"></Button>
+    </children>
+
+    <Label fx:id="SceltaGiocatori" layoutX="30.0" layoutY="30.0" minHeight="530" minWidth="750"/>
+  <children>
+      <Label fx:id="ScrittaGiocatori" layoutX="290.0" layoutY="200.0"  text="Scegli Numero Giocatori Partita" />
+        <Button fx:id="Uno" layoutX="50.0" layoutY="300.0" minHeight="85" minWidth="100" onAction="#Setgiocatore" ></Button>
+        <Button fx:id="Due" layoutX="200.0" layoutY="300.0" minHeight="85" minWidth="100" onAction="#Setgiocatore"></Button>
+        <Button fx:id="Tre" layoutX="350.0" layoutY="300.0" minHeight="85" minWidth="100"  onAction="#Setgiocatore"></Button>
+        <Button fx:id="Quattro" layoutX="500.0" layoutY="300.0" minHeight="85" minWidth="100" onAction="#Setgiocatore"></Button>
+      <Button fx:id="Cinque" layoutX="650.0" layoutY="300.0" minHeight="85" minWidth="100" onAction="#Setgiocatore"></Button>
+    </children>
+<Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+    <Label fx:id="FinePartita"  layoutX="230.0" layoutY="150.0" text="" visible="false"/>
+
+
+<children>
+    <AnchorPane fx:id="menu" prefHeight="500.0" prefWidth="130.0" style="-fx-background-color: #778899;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" visible="false">
+        <children>
+            <Label fx:id="GiocatoreName" layoutX="22.0" layoutY="31.0" text="" />
+            <Button fx:id="dadoButton" layoutX="20.0" layoutY="80.0" mnemonicParsing="false" text="Lancia Dado" onAction="#LanciaDado"/>
+
+            <Button fx:id="Dado" layoutX="18.0" layoutY="110.0">
+                <graphic>
+                    <ImageView fx:id="DadoImage"  fitHeight="80.0" fitWidth="80.0" preserveRatio="true" pickOnBounds="true">  <image> </image></ImageView>
+                </graphic>
+            </Button>
+
+            <Label fx:id="ErroreDado" layoutX="18.0" layoutY="200.0" text="" />
+            <Label fx:id="NumeroMezzo" layoutX="50.0" layoutY="310.0" text=""/>
+
+            <Label fx:id="CartaPercorsoPartenza" layoutX="2.0" layoutY="400.0" text="" textFill="black"/>
+
+            <Label fx:id="CartaObiettivo" layoutX="2.0" layoutY="450.0" text=""/>
+            <Label fx:id="CartaPercorsoArrivo" layoutX="2.0" layoutY="500.0" text="" />
+
+
+
+<Button fx:id="Vagone" layoutX="3.0" layoutY="300.0">
+        <graphic>
+           <ImageView fx:id="BoxImage"  fitHeight="20.0" fitWidth="22.0" preserveRatio="true" pickOnBounds="true"> </ImageView>
+        </graphic>
+</Button>
+
+            <Button fx:id="TurnoButton" layoutX="28.0" layoutY="580.0" mnemonicParsing="false" text="Fine Turno" visible="false" onAction="#FineTurno"/>
+        </children>
+    </AnchorPane>
+</children>
+
+</AnchorPane>
+
+
+
+
